@@ -1,0 +1,117 @@
+
+
+@font-face{
+    font-family:YeonSung;
+    src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
+
+}
+@font-face {
+    font-family: ChangaLight;
+    src: url(./data/fonts/Changa-Light.ttf);
+}
+.instagram{
+    top: 10px ;
+    text-align: center;
+    }
+.FastFood{
+     color:rgb(255, 255, 255);
+     padding:5px;
+     font-family:monospace;
+     font-size:15px;
+     display: inline-block;
+     cursor: pointer;
+     border: none;
+     border-radius: 12px;
+     overflow: hidden;
+}
+.Manner{
+    color:rgb(255, 255, 255);
+    padding:5px;
+    font-family:monospace;
+    font-size:15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.Samadhi{
+    color:rgb(255, 255, 255);
+    padding:5px;
+    font-family:monospace;
+    font-size:15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.TLF{
+    color:rgb(255, 255, 255);
+    padding:5px;
+    font-family:monospace;
+    font-size:15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.MovementRobotics{
+    color: rgb(255, 255, 255);
+    padding:5px;
+    font-family:monospace;
+    font-size:15px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+a:visited {
+color: white;
+text-decoration: none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.microwave {
+    height: 85vh;
+    width: 50vw;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-100%,-100%);
+    opacity: 10;
+    overflow: hidden;
+}
+
+model-viewer{
+    width:100%;
+    height:100%;
+    cursor: alias;
+    background: linear-gradient(270deg, rgba(34, 34, 34, rgb(236, 229, 5)2), rgb(172, 14, 14));
+}
+@font-face{
+    font-family:YeonSung;
+    src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
+}
+h1{
+    font-family: ChangaLight;
+    font-size: 50px;
+    text-align:left;
+    color:black;
+}
+a{
+    top:50px;
+    font-family: ChangaLight;
+    font-size: 50px;
+    text-align:left;
+    color:black;
+    
+
+}

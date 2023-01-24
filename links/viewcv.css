@@ -1,0 +1,89 @@
+div{
+    color:rgb(0, 0, 0);
+    display:block;
+    padding: 5px;
+    font-family:YeounSung;
+    font-size:20px;
+    position: absolute;  
+    width: 500px;
+    height: 50px;
+    top: 80px;
+    left: 16px;
+
+}
+
+
+div1{
+    color:rgb(0, 0, 0);
+    display:block;
+    padding: 5px;
+    font-family:YeounSung;
+    font-size:20px;
+    position: absolute;  
+    width: 650px;
+    height: 50px;
+    top: 245px;
+    left: 16px;
+}
+
+div3{
+    color:rgb(0, 0, 0);
+    display:block;
+    padding: 5px;
+    font-family:YeounSung;
+    font-size:20px;
+    position: absolute;  
+    width:15%;
+    height: 50px;
+    top: 400px;
+    left: 16px;
+}
+div4{
+    color:rgb(0, 0, 0);
+    display:block;
+    padding: 5px;
+    font-family:YeounSung;
+    font-size:20px;
+    position: absolute;  
+    width: 650px;
+    height: 50px;
+    top: 535px;
+    left: 16px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 15px;
+}
+h1{
+    top:40px;
+    left: 19px;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+}
+h2{
+    top:200px;
+    left:19px;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+}
+h3{
+    top:350px;
+    left: 19px;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+}
+h4{
+    top:500px;
+    left: 19px;
+    color: black;
+    position: absolute;
+    font-size: 25px;
+}
+

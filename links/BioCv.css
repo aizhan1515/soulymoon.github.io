@@ -1,0 +1,55 @@
+@font-face{
+    font-family:YeonSung;
+    src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
+}
+@font-face {
+    font-family: ChangaLight;
+    src: url(./data/fonts/Changa-Light.ttf);
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    display:block;
+    padding: 5px;
+    font-family:YeounSung;
+    font-size:20px;
+    position: absolute;  
+    width: 650px;
+    height: 50px;
+    top: 35px;
+    left: 16px;
+
+}
+
+h2{
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+}
+h3{
+    position: absolute;
+    top: 700px;
+    color: white;
+    font-size: 20px;
+    left:20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 15px;
+}
+  
+p1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 15px;
+}
+
