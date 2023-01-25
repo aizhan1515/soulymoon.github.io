@@ -13,50 +13,58 @@ div{
 }
 
 
-div1{
+p1{
     color:rgb(0, 0, 0);
-    display:block;
-    padding: 5px;
     font-family:YeounSung;
     font-size:20px;
-    position: absolute;  
-    width: 650px;
-    height: 50px;
-    top: 245px;
-    left: 16px;
+    position: fixed;  
+    width: 60%;
+    height:70%;
+    top: 34%;
+    left: 1.3%;
+}
+p2{
+    color:rgb(0, 0, 0);
+    font-family:YeounSung;
+    font-size:20px;
+    position: fixed;  
+    width: 60%;
+    height:70%;
+    top: 38%;
+    left: 1.3%;
+}
+p3{
+    color:rgb(0, 0, 0);
+    font-family:YeounSung;
+    font-size:20px;
+    position: fixed;  
+    width: 60%;
+    height:70%;
+    top: 44%;
+    left: 1.3%;
+}
+p4{
+    color:rgb(0, 0, 0);
+    display: block;
+    font-family:YeounSung;
+    font-size:20px;
+    position:fixed;  
+    width:300%;
+    height:100%;
+    top: 56%;
+    left: 1.3%;
 }
 
-div3{
+p5{
     color:rgb(0, 0, 0);
-    display:block;
-    padding: 5px;
-    font-family:YeounSung;
-    font-size:20px;
-    position: absolute;  
-    width:15%;
-    height: 50px;
-    top: 400px;
-    left: 16px;
-}
-div4{
-    color:rgb(0, 0, 0);
-    display:block;
-    padding: 5px;
-    font-family:YeounSung;
-    font-size:20px;
-    position: absolute;  
-    width: 650px;
-    height: 50px;
-    top: 535px;
-    left: 16px;
-}
-p{
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    height: 15px;
+    font-family:YeounSung;
+    font-size:20px;
+    position:fixed;  
+    width:300%;
+    height:100%;
+    top: 85%;
+    left: 1.3%;
 }
 h1{
     top:40px;
@@ -80,10 +88,10 @@ h3{
     font-size: 25px;
 }
 h4{
-    top:500px;
-    left: 19px;
+    top:79%;
+    left: 1.3%;
     color: black;
-    position: absolute;
+    position: fixed;
     font-size: 25px;
 }
 

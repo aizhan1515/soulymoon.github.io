@@ -1,3 +1,25 @@
+/* Default styles for larger screens */
+body {
+    font-size:16px;
+    margin:0;
+    padding:0; 
+  }
+  
+  /* Styles for screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+.container{
+    width: 80%;
+}  
+#header {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+
 h1{
     color:black;
     display:flex;
@@ -26,11 +48,13 @@ h2{
 
 
 .grid-item{
-    margin-top: 300px;
-    margin-left: 700px;
+    position: relative;
+    width: 30%;
+    margin-top:28%;
+    margin-left: 45%;
     opacity: 0.7;
     display: grid;  /* Set the container to be a grid */
     grid-template-columns: repeat(4, 1fr); /* Define 4 equal-width columns */
     grid-template-rows: repeat(3); /* Define 3 equal-height rows */
-    grid-gap: 10px; /* Add some gap between the grid items */
+    grid-gap: 5%; /* Add some gap between the grid items */
 }

@@ -1,14 +1,24 @@
-
-head {
+/* Default styles for larger screens */
+body {
     font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-@media only screen and (max-width: 600px) {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
     body {
       font-size: 14px;
     }
   }
+.container{
+    width: 80%;
+}  
+#header {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
 @font-face{
     font-family:YeonSung;
     src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
@@ -57,7 +67,7 @@ head {
 }
 .TLF{
     color:rgb(255, 255, 255);
-    padding:5px;
+    padding:5%;
     font-family:monospace;
     font-size:15px;
     display: inline-block;
@@ -76,6 +86,7 @@ head {
     border: none;
     border-radius: 12px;
     overflow: hidden;
+    position: absolute;
 }
 a:visited {
 color: white;
@@ -92,11 +103,12 @@ a{
     height: 25vh;
     width: 25vw;
     position: absolute;
-    top: 90%;
-    left: 90%;
+    top: 50%;
+    left: 60%;
     transform: translate(-100%,-100%);
     opacity: 10;
     overflow: hidden;
+    padding: 5px;
 }
 
 model-viewer{
