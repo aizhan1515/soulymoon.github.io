@@ -111,10 +111,10 @@ a{
 
 
 .microwave {
-    height: 25vh;
-    width: 25vw;
+    height: 35vh;
+    width: 35vw;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 60%;
     transform: translate(-100%,-100%);
     opacity: 10;

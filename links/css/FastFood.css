@@ -33,6 +33,7 @@ div{
      padding:5px;
      font-family:"YeonSung-Regular.ttf";
      font-size:15px;
+     top: 150%;
 }
 @font-face{
     font-family:"YeonSung";
@@ -47,7 +48,7 @@ h1{
     position: fixed;  
     width:50%;
     text-align: center;
-    top:520px;
+    top:70%;
     left:15px;
 }
 h2{
@@ -60,7 +61,7 @@ h2{
     position: fixed;  
     width:50%;
     text-align: center;
-    top:550px;
+    top:75%;
     left:15px;
 }
 .container{
