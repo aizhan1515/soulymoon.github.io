@@ -1,3 +1,22 @@
+a:link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
 /* Default styles for larger screens */
 body {
     font-size: 16px;
@@ -35,8 +54,8 @@ h1 {
     color:rgb(255, 255, 255);
     display:block;
     padding: 5px;
-    font-family:YeounSung;
-    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
     position: relative;  
     width: 50%;
     height: 100%;
@@ -51,6 +70,7 @@ h2 {
     font-size: 20px;
     left: 1.5%;
     top:15%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 h3{
@@ -59,6 +79,8 @@ h3{
     font-size: 20px;
     left:1.5%;
     top:20%;
+    font-family: Arial, Helvetica, sans-serif
+    ;
 }
 p {
     display: block;
@@ -67,6 +89,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     height: 15px;
+    font-size: 15px;
 }
   
 p1 {
@@ -76,5 +99,6 @@ p1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     height: 15px;
+    font-size: 15px;
 }
 

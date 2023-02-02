@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Masaüstü/Projects/Web-site/code"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "soulymoon.github.io"
+	}
+}

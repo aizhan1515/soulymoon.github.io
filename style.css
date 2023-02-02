@@ -1,3 +1,14 @@
+span:hover +div{
+    display: block;
+  }
+  div{
+    padding: 100px;
+    padding-left: 150px;
+    display:none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
 /* Default styles for larger screens */
 body {
     font-size: 16px;
