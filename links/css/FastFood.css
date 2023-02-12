@@ -1,24 +1,104 @@
 
 /* Default styles for larger screens */
 body {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+  margin: auto;
+  font-family: Helvetica ,Arial,sans-serif;
+  width: 100%;
+  font-size: 10pt;
+  text-align: left;
   }
-  
+  div{
+    margin-top:70px;
+    display: block;
+  }
+  img:hover {
+    transform:  scale(1.05);
+  }
+  /*img{
+    overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 100%;
+  }*/
+  .text {
+   margin: auto;
+    display: block;
+    width:50%;
+    }
+    .text a{
+      color: #000000;
+      font-size: 10px;
+      text-decoration: none;
+    }
+    h1 {
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+    h2{
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+    h3{
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h4{
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      /*.griditem{
+        display: grid;  /* Set the container to be a grid */
+        /*grid-template-columns: repeat(3,1fr); /* Define 4 equal-width columns */
+        /*grid-template-rows: repeat(4); /* Define 3 equal-height rows */
+        /*grid-gap: 50px; /* Add some gap between the grid items 
+        top:30%;
+      }*/
+      
+      
+    .griditem img{
+    width: 50%;
+    top: 100px;
+    margin: auto;
+    display: block;
+    gap: 10px;
+    }
+      .griditem video {
+        width: 50%;
+        display: block;
+        top: 100px;
+        margin: auto;
+      }
+    
   /* Styles for screens smaller than 600px */
   @media only screen and (max-width: 600px) {
     body {
       font-size: 14px;
     }
   }
-.container{
-    width: 80%;
-}  
-#header {
+  
+/*#header {
     flex-wrap: wrap;
     align-items: center;
-  }
+  }*/
 
 
 @font-face{
@@ -27,66 +107,18 @@ body {
 }
 
 
-div{
-    color:black;
-    display: flex;
-     padding:5px;
-     font-family:"YeonSung-Regular.ttf";
-     font-size:15px;
-     top: 150%;
-}
+
 @font-face{
     font-family:"YeonSung";
     src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
 }
-h1{
-    color:black;
-    display:flex;
-    padding: 5px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:20px;
-    position: fixed;  
-    width:50%;
-    text-align: center;
-    top:53%;
-    left:40%;
-}
-h2{
-    color:black;
-    display:flex;
-    padding: 5px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:15px;
-    opacity: 0.5;
-    position: fixed;  
-    width:50%;
-    text-align: center;
-    top:56%;
-    left:40%;
-}
 
 
-.griditem{
-  display: grid;  /* Set the container to be a grid */
-  grid-template-columns: repeat(3,1fr); /* Define 4 equal-width columns */
-  grid-template-rows: repeat(4); /* Define 3 equal-height rows */
-  grid-gap: 50px; /* Add some gap between the grid items */
-  top:30%;
-}
-img{
-  width: 110%;
-  height: auto;
-  top:40%;
-}
 @media (max-width: 800px) {
   .griditem {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-video {
-  width: 115%;
-  height: 100%;
 
-}
 
