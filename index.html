@@ -18,15 +18,6 @@
     <!--<model-viewer src="microwave1.glb" auto-rotate camera controls></model-viewer>-->
     <!--</div>-->
     <!--3d--> 
-    <script src="three.min.js"></script>
-    ,<script src="OrbitControls.js"></script>
-    <link rel="js" href="java.js">
-
-   
-
-
-
-
     <!--links to social media-->
     <a href="https://www.instagram.com/soulymoon/"><img src="./data/instagram.png"style="position:absolute; top: 15%; left: 1.3%;"></a>
     <a href="mailto:aizhan.saganayeva@kunstuni-linz.at"><img src="./data/email.png"style="position:absolute; top: 20%; left: 1.3%;"></a>
@@ -41,10 +32,36 @@
     <a href="http://www.movingimages.de/?type=research&txt_id=174&lng=eng"class="MovementRobotics" style="position:absolute; top:50%; right:45%;font-size:25px">Movement Robotics</a>
     <a href="./links/2244.html" class="2244" style="position: absolute; top: 20%;right:50%;font-size: 30px;">2244</a>
     <!--bio/cv-->
-    <span><a href="./links/BioCv.html" style="position:absolute; top:35px; left: 20px;">soulymoon</a></span>
+    <span><a href="./links/BioCv.html" style="position:absolute; top:5%; left: 1.3%;">soulymoon</a></span>
     <div>about</div>
     <body style = "background-color: rgb(176, 44, 12); opacity: 0.5; size: 100%"></body> 
+    <!--<script src="three.min.js"></script>
+    <script src="GLTFLoader.js"></script>
+    <script>
+        var scene = new THREE.Scene();
+
+var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+camera.position.z = 5;
+
+var renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+var loader = new THREE.GLTFLoader();
+loader.load( 'microwave1.glb', function ( gltf ) {
+  scene.add( gltf.scene );
+}, undefined, function ( error ) {
+  console.error( error );
+} );
+
+var animate = function () {
+  requestAnimationFrame( animate );
+  renderer.render( scene, camera );
+};
+
+animate();
+</script>
     </body>
 </head>
-<!--body style="background-color: rgba(14, 50, 24, 0.585);">-->
+body style="background-color: rgba(14, 50, 24, 0.585);">-->
 </html>
