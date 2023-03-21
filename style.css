@@ -1,150 +1,259 @@
-span:hover +div{
-    display: block;
-  }
-  div{
-    padding: 100px;
-    padding-left: 150px;
-    display:none;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
-/* Default styles for larger screens */
-body {
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Styles for screens smaller than 600px */
-  @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-  }
-.container{
-    width: 80%;
-}  
-#header {
-    flex-wrap: wrap;
-    align-items: center;
-  }
+.page-wrap {
+  height: auto;
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
 
-@font-face{
-    font-family:YeonSung;
-    src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
 }
+
+.essay-wrap {
+  height: 90%;
+  max-width: 60%;
+  margin: 20 auto;
+  text-align: left;
+  z-index: 30;
+}
+
+/*header {
+z-index: 100;
+}
+*/
 @font-face {
-    font-family: ChangaLight;
-    src: url(./data/fonts/Changa-Light.ttf);
+  font-family: ChangaLight;
+  src: url(./data/fonts/Changa-Light.ttf);
 }
-.instagram{
-    top: 10px ;
-    text-align: center;
-    }
-/*.FastFood{
-     color:rgb(255, 255, 255);
-     padding:5px;
-     font-family:monospace;
-     font-size:15px;
-     display: inline-block;
-     cursor: pointer;
-     border: none;
-     border-radius: 12px;
-     overflow: hidden;
-}
-.Manner{
-    color:rgb(255, 255, 255);
-    padding:5px;
-    font-family:monospace;
-    font-size:15px;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-}
-.Samadhi{
-    color:rgb(255, 255, 255);
-    padding:5px;
-    font-family:monospace;
-    font-size:15px;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-}
-.TLF{
-    color:rgb(255, 255, 255);
-    padding:5%;
-    font-family:monospace;
-    font-size:15px;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-}
-.MovementRobotics{
-    color: rgb(255, 255, 255);
-    padding:5px;
-    font-family:monospace;
-    font-size:15px;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
+.soulymoon {
     position: absolute;
-}*/
-a:visited {
-color: white;
+    padding-top: auto;
+    margin-top: auto;
+    top: 0%;
+    left: 2%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    color:rgba(250, 245, 243, 0.637);
+}
+.icon {
+  position: absolute;
+  display: inline;
+  padding-top: auto;
+  margin-top: auto;
+  top: 15%;
+  left: 2%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  text-align:center;
+  color:rgba(250, 245, 243, 0.637);
+}
+.projects {
+  position: absolute;
+  display: inline;
+  padding-top: auto;
+  margin-top: auto;
+  top: 18%;
+  left: 2%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  text-align:center;
+  color:rgba(250, 245, 243, 0.637);
+}
+
+.img {
+  position: absolute;
+  display: inline;
+  padding-top: auto;
+  margin-top: auto;
+  top: 80%;
+  left: 2%;
+}
+
+body {
+  background-color: rgb(207, 58, 3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;  
+
+  box-sizing: border-box;
+  font: 18px Archivo, sans serif;
+  color: white;
+  z-index: 15;
+}
+
+a {
+font-weight: bold;
+color: #d9f58e;
 text-decoration: none;
 }
-a{
-    color:white;
-    text-decoration: none;
+
+
+
+
+#links{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;    
+  background-position: center;
+/*    animation: 5s infinite wavy;*/    
+
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  touch-action: none;
+  z-index: 30;
+}
+
+.item {
+width: 100px;
+height: 100px;
+touch-action: none;
+user-select: none;
+}
+
+.item:hover {
+cursor: help;
+transform: scale(1.5);
 }
 
 
 
-.microwave {
-    height: 35vh;
-    width: 35vw;
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    transform: translate(-100%,-100%);
-    opacity: 10;
-    overflow: hidden;
-    padding: 5px;
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
 }
 
-model-viewer{
-    width:100%;
-    height:100%;
-    cursor: alias;
-    background: linear-gradient(270deg, rgba(34, 34, 34, rgb(236, 229, 5)2), rgb(172, 14, 14));
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
-@font-face{
-    font-family:YeonSung;
-    src: url(./data/fonts/Yeon_Sung/YeonSung-Regular.ttf);
+/*
+#myPopup{
+display: none;
+z-index: 5000;
+width: 800px;
+border: 2px solid red;
+border-radius: 25px;
+margin: 0% auto;
+padding: 6vh;
+padding-top: 3vh;
+box-sizing: border-box;
+position: absolute;
+font: 12px Syne Mono, monospace;
+color: white;
+box-shadow: 5px 7px 10px #fffd57; 
+overflow: auto;
+height: auto;
+max-height: 80%;
 }
-h1{
-    font-family: ChangaLight;
-    font-size: 50px;
-    text-align:left;
-    color:black;
+
+
+#flex-menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 16px;
+}*/
+
+/*#flex-menu > .flex-item {
+flex: auto;
+}/*
+
+/* Add animation (fade in the popup) 
+@-webkit-keyframes fadeIn {
+from {opacity: 0;}
+to {opacity: 1;}
 }
-a{
-    top:50px;
-    font-family: ChangaLight;
-    font-size: 50px;
-    text-align:left;
-    color:black;
-    
+
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}*/
+
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+
+
+
+.page-wrap {
+  padding-top: 0;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.essay-wrap {
+  max-width: 86%;
+}
+
+#links{
+transform:scale(0.7);
+width: auto;
+background-image: none;
+}
+
+
+
 
 }
+
+
+/*h1 {
+  color: yellow;
+  font: 36px Fahkwang, serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightblue;
+  font: 20px Fahkwang, serif;
+  font-weight: regular;
+}
+
+p {
+color: white;
+font: 28px FreeMono, monospace;
+}*/
+
+
+.blink {
+  animation: 2s infinite blink;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0%, 15% {
+      opacity: 0;
+  }
+  16%, 100% {
+      opacity: 1;
+  }
+}
+
+.flier {
+pointer-events: none;
+}
+
+.flier > * {
+/* Adjust animation duration to change the element’s speed */
+      animation: fly 50s linear infinite;
+      pointer-events: none !important;
+top: 0;
+left: 0;
+transform: translateX(-120%) translateY(-120%) rotateZ(0);
+position: fixed;
+animation-delay: 1s;
+z-index: 999999;
+}
+
+
+/* Keyframe values control where the element will begin
+  and end its trajectory across the screen. Each rule
+  represents a path the element follows across the screen. */
+
 
