@@ -108,6 +108,7 @@ text-decoration: none;
   z-index: 30;
 }
 
+
 .item {
 width: 100px;
 height: 100px;
@@ -175,31 +176,94 @@ from {opacity: 0;}
 to {opacity:1 ;}
 }*/
 
-
-@media only screen and (max-width: 768px) {
 /* For mobile phones: */
-
-
-
-.page-wrap {
-  padding-top: 0;
-  position: absolute;
-  transform: translateY(-50%);
-}
-
-.essay-wrap {
-  max-width: 86%;
-}
-
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+   
 #links{
-transform:scale(0.7);
-width: auto;
-background-image: none;
-}
-
-
-
-
+        position:relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        height: auto;  
+        left:auto;
+        right:auto;
+      }
+ .img {
+        position: absolute;
+        display: inline;
+        padding-top: auto;
+        margin-top: auto;
+        top: 25%;
+        left: 2%;
+        width: 200%;
+        height: 400px;
+      }
+  .food{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 100px;
+    right: 10%;
+    width: 100%;
+    height: 400px;
+  }
+  .manner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    bottom: 170px;
+    right: 10%;
+    width: 100%;
+    height: 400px;
+  }
+  .tlf {
+       position: relative;
+       display: inline-block;
+       text-align: center;
+       bottom: 180px;
+       right: 60%;
+       width: 100%;
+       height: 400px;
+  }
+  .robotik{
+       position: relative;
+       display: inline-block;
+       text-align: center;
+       bottom: 520px;
+       left: 40%;
+       width: 100%;
+       height: 400px;
+  }
+  .textadv {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      bottom: 700px;
+      left: 10%;
+      width: 100%;
+      height: 400px;
+  }
+  .crush{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    bottom: 950px;
+    left: 5%;
+    width: 100%;
+    height: 400px;
+  }
+  .dt {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    bottom: 800px;
+    left: 5%;
+    width: 100%;
+    height: 400px;
+  }
 }
 
 
